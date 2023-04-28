@@ -5,4 +5,9 @@ public class Eagle extends Bird implements Hunter {
         this.heightOfFly = heightOfFly;
         this.animalSpecial = animalSpecial;
     }
+
+    @Override
+    public void hunt(Prey prey) {
+        System.out.printf("%s hunted %s\n", this.name, prey.getName());
+    }
 }

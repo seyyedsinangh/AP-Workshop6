@@ -5,4 +5,8 @@ public class Cheetah extends Mammal implements Hunter {
         this.speed = speed;
         this.animalSpecial = animalSpecial;
     }
+    @Override
+    public void hunt(Prey prey) {
+        System.out.printf("%s hunted %s\n", this.name, prey.getName());
+    }
 }

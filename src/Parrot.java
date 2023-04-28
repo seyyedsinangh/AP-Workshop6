@@ -5,4 +5,9 @@ public class Parrot extends Bird implements Prey {
         this.heightOfFly = heightOfFly;
         this.animalSpecial = animalSpecial;
     }
+
+    @Override
+    public String getName() {
+        return this.name;
+    }
 }

@@ -5,4 +5,9 @@ public class Girafe extends Mammal implements Prey {
         this.speed = speed;
         this.animalSpecial = animalSpecial;
     }
+
+    @Override
+    public String getName() {
+        return this.name;
+    }
 }
